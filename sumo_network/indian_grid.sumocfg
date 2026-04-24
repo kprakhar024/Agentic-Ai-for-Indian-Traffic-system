@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="indian_grid.net.xml"/>
+        <route-files value="indian_grid.rou.xml"/>
+        <additional-files value="indian_grid.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1.0"/>
+    </time>
+    <processing>
+        <lateral-resolution value="0.8"/>
+    </processing>
+    <report>
+        <no-step-log value="true"/>
+        <no-warnings value="true"/>
+    </report>
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+</configuration>
